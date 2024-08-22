@@ -26,3 +26,6 @@ Extras:
 
 <h2>Projeto desenvolvido durante a fase 1 do programa ONE - Oracle Next Education</h2>
 <p>Utilizado HTML, CSS e JavaScript</p>
+
+
+<h3>Link do projeto no vercel: https://challenge-one-taupe-eta.vercel.app/</h3>
