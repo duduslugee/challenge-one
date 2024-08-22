@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    background-color: #A480F2;
+}
+
+body{
+    padding: 3%;
+}
+
+::placeholder{
+    color: #221426;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.entradaTextoCSS{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.alerta-criptografia{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.8rem;
+}
+
+.botaoCriptDescript{
+    display: flex;
+    justify-content: space-between;
+    width: 1rem;
+    gap: 3.125rem;
+}
+
+.entradaDeTexto{
+    background-color: transparent;
+    padding: 20px;
+    font-size: 2rem;
+    color: #221426;
+    height: 75%;
+    width: 75%;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.botao-criptografar{
+    border: solid 1px;
+    border-radius: 18px;
+    border-color: #1D1340;
+    padding: 1.25rem 5rem;
+    background: #221426;
+    font-size: 1rem;
+    color: #70d1ff;
+    transition: transform 0.2s, background-color 0.3s;
+}
+.botao-criptografar:hover{
+    transform: scale(0.95);
+    background-color: #1D1340;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.botao-descriptografar{
+    border: solid 1px;
+    border-radius: 18px;
+    border-color: #1D1340;
+    padding: 1.25rem 5rem;
+    background: #221426;
+    font-size: 1rem;
+    color: #70d1ff;
+    transition: transform 0.2s, background-color 0.3s;
+}
+.botao-descriptografar:hover{
+    transform: scale(0.95);
+    background-color: #1D1340;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.saidaTextoCSS{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #976df3;
+    border-radius: 2rem;
+    width: 25%;
+    height: 50rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resultado{
+    flex-direction: column;
+    background-color: #976df3;
+    word-break: break-word;
+    width: 100%;
+    color:#211325;
+    font-size: 1.5rem;
+    max-height: 95%;
+    overflow-y: auto;
+}
+
+.botao-copiar{
+    display: none;
+    border: solid 1px;
+    border-radius: 18px;
+    border-color: #1D1340;
+    padding: 1.25rem 7.5rem;
+    background: #221426;
+    font-size: 1rem;
+    color: #70d1ff;
+    transition: transform 0.2s, background-color 0.3s;
+}
+.botao-copiar:hover{
+    transform: scale(0.95);
+    background-color: #1D1340;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+.div-btn-copiar{
+    background-color: transparent;
+}
+
+.resultado-texto {
+    max-width: 100%;
+    height: auto;
+    background-color: #976df3;
+}
+
+.img-logo{
+    width: 70%;
+    background-color: #976df3;
+}
+
+.naoEncontrouMensagem{
+    background-color: #976df3;
+}
+
+/*
+.color1 {color: #000000;}
+.color2 {color: #172738;}
+.color3 {color: #345875;}
+.color4 {color: #5291bc;}
+.color5 {color: #70d1ff;}
+*/
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: #1D1340;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+

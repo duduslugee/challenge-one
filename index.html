@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE-ALURA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="corpoMontado">
+            
+            <main class="principal">
+                <header class="titulo">
+                    <img src="./assets/logo.png" alt="Logo">
+                </header>
+                <div class="entradaTextoCSS">
+                    <textarea class="entradaDeTexto" id="entradaTexto" placeholder="Digite seu texto aqui..."></textarea>
+                    <div class="alerta-criptografia">
+                        <img src="./assets/alert.png" alt="Alerta">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="botaoCriptDescript">
+                        <button class="botao-criptografar" onclick="criptografarTexto()">Criptografar</button>
+                        <button class="botao-descriptografar" onclick="descriptografarTexto()">Descriptografar</button>
+                    </div>
+                </div>
+
+                <div class="saidaTextoCSS">
+                    <div id="textoResultado" class="resultado">
+                        <img src="./assets/boneco.png" class="img-logo" alt="Nenhuma mensagem encontrada">
+                        <h2 class="naoEncontrouMensagem">Nenhuma mensagem encontrada</h2>
+                        <p class="resultado-texto">Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </div>
+
+                    <div class="div-btn-copiar">
+                        <button class="botao-copiar" onclick="copiarParaTransferencia()">Copiar</button>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="rodape">
+                <p>Feito por Eduardo Ramos da Silva - 2024</p>
+            </footer>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
