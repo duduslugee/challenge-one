@@ -1,7 +1,7 @@
 <h1 align="center"> Desafio decodificador de texto </h1>
 
 <p>
-As "chaves" de criptografia foram utilizadas são:
+As "chaves" de criptografia que foram utilizadas são:
 A letra "e" é convertida para "enter"
 A letra "i" é convertida para "imes"
 A letra "a" é convertida para "ai"
