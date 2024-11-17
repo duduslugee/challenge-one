@@ -36,9 +36,9 @@ function mostrarResultado(texto) {
 
 function copiarParaTransferencia() {
     let textoResultado = document.querySelector("#textoResultado p").innerText;
-    navigator.clipboard.writeText(textoResultado).then(() => {
-        alert("Texto copiado para a área de transferência!");
-    });
+    //navigator.clipboard.writeText(textoResultado).then(() => {
+    //    alert("Texto copiado para a área de transferência!");
+    //});
 }
 
 function limparCampo(){
